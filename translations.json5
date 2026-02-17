@@ -1,0 +1,1022 @@
+{
+  "_comment": "Muck 한글화 번역 파일 - 영어 원문(키) → 한국어 번역(값)",
+
+  /////////////////////////////
+  /*키 바인딩*/
+  "Space": "스페이스바",
+  "LeftShift": "Shift(좌)",
+  "Tab": "탭",
+  "Mouse0": "좌클릭",
+  "Mouse1": "우클릭",
+
+///////////////////////////////
+  /*메인 메뉴*/
+  "Host Lobby": "게임 호스트",
+  "Join Lobby": "게임 참가",
+  "Lobby ID": "로비 ID", // 게임 참가
+  "Settings": "설정",
+  "Achievements": "도전과제",
+  "About": "정보",
+  "Quit": "종료",
+
+  ////////////////////////////////
+  /*게임 참가*/
+  "Couldn't find lobby. Make sure it's a valid lobbyID from someone": "로비를 찾을 수 없습니다. 유효한 로비 ID인지 확인해주세요.",
+  "Okay dokay": "ㅇㅋㄷㅋ",
+
+  ///////////////////////////////////////////////
+
+  /*호스트*/
+  "Back": "뒤로",
+  "Start": "시작",
+  // "Settings": "설정",
+  "Kick": "추방",
+
+  //호스트-설정-난이도
+  "Difficulty": "난이도",
+  "Easy": "쉬움",
+  "Normal": "보통",
+  "Gamer": "게이머",
+
+  //호스트-설정-플레이어 데미지
+  "Player Damage": "플레이어 타격",
+  "On": "켜기",
+  "Off": "끄기",
+
+  //호스트-설정-게임모드
+  "Game Mode": "게임모드",
+  "Survival": "서바이벌",
+  "Versus": "대전",
+  "Creative": "크리에이티브",
+
+  //호스트-설정-시드
+  "Seed": "시드",
+
+  //호스트-로비ID
+  "regex:^Lobby ID: \\(send to friend\\)(.*)$": "로비 ID: (친구에게 전송)$1",
+  "Click to reveal": "로비 ID 확인하기(클릭)",
+  "Copy to clipboard": "클립보드에 복사",
+
+//////////////////////////////////////
+
+  /*설정*/
+  // "Back": "뒤로",
+  "Gameplay": "게임플레이",
+  "Controls": "조작",
+  "Graphics": "그래픽",
+  "Video": "비디오",
+  "Audio": "오디오",
+
+  // 설정-게임플레이
+  "Camera Shake": "카메라 흔들림",
+  "FOV": "시야각",
+  "Sensitivity": "감도",
+  "Inverted Mouse Horizontal": "마우스 수평 반전",
+  "Inverted Mouse Vertical": "마우스 수직 반전",
+  "Show Grass": "잔디 보이기",
+  "Tutorial": "튜토리얼",
+
+  //설정-조작
+  "Move Forward": "앞으로 이동",
+  "Move Backward": "뒤로 이동",
+  "Move Left": "왼쪽으로 이동",
+  "Move Right": "오른쪽으로 이동",
+  "Jump": "점프",
+  "Sprint": "달리기",
+  "Interact": "상호작용",
+  "Inventory": "인벤토리",
+  "Map": "지도",
+  "Left Click / Attack": "공격 (좌클릭)",
+  "Right Click / Build": "공격 (건설)",
+
+  //설정-그래픽
+  // "Off": "끄기",
+  "Soft": "부드럽게",
+  "Hard": "강하게",
+  "Low": "낮음",
+  "Medium": "중간",
+  "High": "높음",
+  "Ultra": "매우 높음",
+  "Fancy": "화려하게",
+  "Fast": "빠르게",
+
+  //설정-그래픽-항목
+  "Shadow Quality": "그림자 품질",
+  "Shadow Resolution": "그림자 해상도",
+  "Shadow Distance": "그림자 거리",
+  "Shadow Cascades": "그림자 계단효과",
+  "Texture Resolution": "텍스쳐 해상도",
+  "Anti Aliasing": "안티앨리어싱",
+  "Soft Particle": "부드러운 파티클",
+  "Bloom": "빛 번짐",
+  "Motion Blur": "모션 블러",
+  "Ambient Occlusion": "엠비언트 오클루전",
+
+  //설정-비디오
+  "Resolution": "해상도",
+  "Fullscreen": "전체 화면",
+  "Fullscreen Mode": "전체 화면 모드",
+  "ExclusiveFullScreen":"전체 화면 모드", // 전체 화면 모드
+  "FullScreenWindow":"테두리 없는 창모드", // 전체 화면 모드
+  "MaximizedWindow": "최대화된 창모드", // 전체 화면 모드
+  "Windowed": "창모드", // 전체 화면 모드
+  "VSync": "수직 동기화",
+  "Max FPS": "최대 FPS",
+  
+  //설정-오디오
+  "Master Volume": "마스터 볼륨",
+  "Music Volume": "음악 볼륨",
+
+  /////////////////////////////////////
+  /*도전과제*/
+  // 1페이지
+  "A gamer move": "진정한 게이머", //도전과제 1
+  "Beat the game in less than 10 days on Gamer mode": "게이머 난이도에서 10일 이내에 클리어", //도전과제 1
+  "Architect": "건축가", //도전과제 2
+  "Build 250 builds": "건축물 250개 건설", //도전과제 2
+  "Big Mistake": "큰 실수", //도전과제 3
+  "Play Muck for the first time": "Muck을 처음 플레이", //도전과제 3
+  "Bullseye": "명중", //도전과제 4
+  "Kill 200 enemies using bows": "활로 적 200마리 처치", //도전과제 4
+  "Caveman": "원시인", //도전과제 5
+  "Beat the game using only a rock as your weapon / tool. This goes for all players.": "돌만 사용하여 클리어 (모든 플레이어 해당)", //도전과제 5
+  // "Chief": "족장", //도전과제 6
+  "Defeat Chief": "족장 처치", //도전과제 6
+  "Irresistible": "참을 수 없는 유혹", //도전과제 7
+  "Open Chiefs chest": "족장의 상자 열기", //도전과제 7
+  "David vs Goliath": "다윗 vs 골리앗", //도전과제 8
+  "Defeat big chunk": "빅 청크 처치", //도전과제 8
+  // 2페이지
+  "Death Wish": "죽음의 소원", //도전과제 9
+  "Start 200 battle totems": "전투 토템 200개 시작", //도전과제 9
+  "Dream Team": "드림팀", //도전과제 10
+  "Beat the game with 2 players, but no one can take any damage (Normal diff or harder)": "2인 플레이에서 무피격 클리어 (보통 이상)", //도전과제 10
+  "Easy Peasy": "식은 죽 먹기", //도전과제 11
+  "Beat the game on easy difficulty": "쉬움 난이도에서 클리어", //도전과제 11
+  "Fearless": "무서울 게 없다", //도전과제 12
+  "Slay all bosses": "모든 보스 처치", //도전과제 12
+  "Go outside": "밖에 좀 나가", //도전과제 13
+  "Survive for 100 days": "100일 생존", //도전과제 13
+  "Goblin Slayer": "고블린 슬레이어", // 도전과제 14
+  "Slay 1000 goblins": "고블린 1,000마리 처치", //도전과제 14
+  // "Gronk": "그론크", //도전과제 15
+  "Defeat Gronk": "그론크 처치", //도전과제 15
+  "Guardian": "가디언", //도전과제 16
+  "Defeat Guardian": "수호자 처치", //도전과제 16
+  // 3페이지
+  "Hardcore gamer": "하드코어 게이머", //도전과제 17
+  "Beat the game on gamer difficulty": "게이머 난이도에서 클리어", //도전과제 17
+  "I am Inevitable": "나는 필연이다", //도전과제 18
+  "Collect all 5 gems": "보석 5개 모두 수집", //도전과제 18
+  "Illegal work": "불법 노동", //도전과제 19
+  "Craft 1,000 coins": "동전 1,000개 제작", //도전과제 19
+  "Learning the ropes": "이제 좀 알겠어", //도전과제 20
+  "Beat the game on normal difficulty": "보통 난이도에서 클리어", //도전과제 20
+  "Leg day": "하체 운동의 날", //도전과제 21
+  "Walk 250km": "250km 걷기", //도전과제 21
+  "Milkman": "우유 배달부", //도전과제 22
+  "Pick up 10 Milk powerups in one game": "한 게임에서 우유 파워업 10개 획득", //도전과제 22
+  // "Muck off": "Muck off", //도전과제 23
+  "Die 50 Times": "50번 사망", //도전과제 23
+  // "Muck this game": "Muck this game", //도전과제 24
+  "Die 100 Times": "100번 사망", //도전과제 24
+  // 4페이지
+  // "Muckinator": "Muckinator", //도전과제 25
+  "Kill 100 mobs": "몬스터 100마리 처치", //도전과제 25
+  // "Muckinator 2": "Muckinator 2", //도전과제 26
+  "Kill 1,000 mobs": "몬스터 1,000마리 처치", //도전과제 26
+  // "Muckinator 3": "Muckinator 3", //도전과제 27
+  "Kill 10,000 mobs": "몬스터 10,000마리 처치", //도전과제 27
+  // "Muckinator 4": "Muckinator 4", //도전과제 28
+  "Kill 100,000 mobs": "몬스터 100,000마리 처치", //도전과제 28
+  // "Muck": "Muck", //도전과제 29
+  "Beat the game using only a rock, taking no damage and using no powerups. This goes for all players in lobby. (Normal or harder)": "돌만 사용, 무피격, 파워업 없이 클리어 (보통 이상, 로비 전원 해당)", //도전과제 29
+  "Oh you don't know what Karlson is?": "Karlson을 모른다고?", //도전과제 30
+  "Find and wishlist Karlson in Muck": "Muck에서 Karlson을 찾아 위시리스트에 추가", //도전과제 30
+  "Pain and suffering": "고통과 시련", //도전과제 31
+  "Die 10 times": "10번 사망", //도전과제 31
+  "Phoon": "토끼 점프", //도전과제 32
+  "Jump 10,000 times": "10,000번 점프", //도전과제 32
+  // 5페이지
+  "Public Enemy": "공공의 적", //도전과제 33
+  "Kill 100 Woodmen": "우드맨 100마리 처치", //도전과제 33
+  "Salty": "짠 맛", //도전과제 34
+  "Kill a friend on Survival Mode": "서바이벌 모드에서 친구 처치", //도전과제 34
+  "Set sail": "출항", //도전과제 35
+  "Leave Muck": "Muck 탈출", //도전과제 35
+  "Speedrunner": "스피드러너", //도전과제 36
+  "Beat the game in less than 8 days": "8일 이내에 클리어", //도전과제 36
+  "Sweat and tears": "땀과 눈물", //도전과제 37
+  "Beat the game with 8 players, but no one can take any damage (Normal diff or harder)": "8인 플레이에서 무피격 클리어 (보통 이상)", //도전과제 37
+  "Team player": "팀 플레이어", //도전과제 38
+  "Revive a teammate": "팀원 부활", //도전과제 38
+  "That's not very milk of you, sir": "그건 좀 젖소답지 않네요", //도전과제 39
+  "Kill 250 cows": "소 250마리 처치", //도전과제 39
+  "The Black Swordsman": "검은 검사", //도전과제 40
+  "Wield the Night Blade": "나이트 블레이드 장착", //도전과제 40
+  // 6페이지
+  "The bois": "더 보이즈", //도전과제 41
+  "Beat the game with 4 players, but no one can take any damage (Normal diff or harder)": "4인 플레이에서 무피격 클리어 (보통 이상)", //도전과제 41
+  "The red plumber man lied": "빨간 배관공이 거짓말했다", //도전과제 42
+  "Eat 50 red shrooms without growing bigger": "빨간 버섯 50개를 먹어도 커지지 않기", //도전과제 42
+  "This is fine": "괜찮아", //도전과제 43
+  "Die 25 times": "25번 사망", //도전과제 43
+  "Treasure Hunter": "보물 사냥꾼", //도전과제 44
+  "Open 500 chests": "상자 500개 열기", //도전과제 44
+  "Underdog": "약자의 반란", //도전과제 45
+  "Kill 250 buff mobs": "강화 몬스터 250마리 처치", //도전과제 45
+  "Untouchable": "무적", //도전과제 46
+  "Beat the game alone without taking any damage (Normal difficulty or harder)": "솔로 무피격 클리어 (보통 이상)", //도전과제 46
+  "What the muck": "What the Muck", //도전과제 47
+  "Beat the game without any players picking up a powerup": "파워업 없이 클리어 (전원 해당)", //도전과제 47
+  "You're a fish": "당신은 물고기입니다", //도전과제 48
+  "Swim 25km": "25km를 수영", //도전과제 48
+  // 7페이지
+  "You're not a fish": "당신은 물고기가 아니라고요", //도전과제 49
+  "Drown": "익사", //도전과제 49
+
+  ////////////////////////////
+  /*게임 로딩창*/
+  "Loading Scene": "장면 불러오는 중",
+  "Generating navmesh": "네비메시 생성 중",
+  "Generating Resources": "리소스 생성 중",
+  "Generating World Mesh": "월드 메시 생성 중",
+  "Finished loading": "로딩 완료",
+  "Ready": "준비",
+  "Waiting": "대기 중",
+  "Loading": "로딩 중",
+  "Loading...": "로딩 중...",
+  "Connecting...": "연결 중...",
+  "Disconnected": "연결 끊김",
+
+  //////////////////////////////////
+  /*ESC 메뉴*/
+  "Resume": "이어하기",
+  // "Settings": "설정",
+  "Leave Game": "게임 나가기",
+
+  ///////////////////////////////////
+  /*튜토리얼*/
+  "Find and pick up a rock": "돌을 찾아 주우세요",
+  "Put rock on hotbar": "돌을 핫바에 넣으세요",
+  "Slap a tree": "나무를 때리세요",
+  "Open inventory and craft a workbench": "인벤토리를 열고 작업대를 제작하세요",
+  "regex:Place the workbench with \\[(.+)\\]": "작업대를 설치하세요 ([$1])",
+  "regex:Open inventory \\[(.+)\\]": "인벤토리 열기 [$1]",
+
+  // 미확인
+  "Collect wood": "나무를 수집하세요",
+  "Craft a workbench": "작업대를 제작하세요",
+  "Build a base": "기지를 건설하세요",
+  "Survive the night": "밤을 버티세요",
+  "Find the boat": "보트를 찾으세요",
+  "Repair the boat": "보트를 수리하세요",
+
+  ///////////////////////////////////
+  // 상호작용
+  "open chest": "상자 열기",
+  "regex:\\(Press \"(.+)\" to pickup": "($1 키를 눌러 줍기)",
+  "regex:\\(Press \"(.+)\" to open": "($1 키를 눌러 열기)",
+  "regex:\\(Press \"(.+)\" to use\\)": "($1 키를 눌러 사용)",
+  "regex:Press (.+) to trade with (.+)": "$1 키를 눌러 $2와(과) 거래",
+  "regex:Press (.+) to leave Muck!": "$1 키를 눌러 Muck 탈출!",
+  "Get all players on the ship!": "모든 플레이어를 배에 태우세요!",
+  "Open Door": "문 열기",
+  "Close Door": "문 닫기",
+
+//////////////////////////////////////////////////////
+// 스킬 //
+//////////////////////////////////////////////////////
+/*스킬*/
+  // 커먼 (흰색)
+  "Red pill": "빨간 알약",
+  "Increase max hp": "최대 체력이 증가한다",
+  "Blue pill": "파란 알약",
+  "Increase shield capacity": "실드량이 증가한다",
+  "Broccoli": "브로콜리",
+  "+Health regeneration": "+체력 재생",
+  "Spooo Bean": "젤리빈",
+  "Hunger drains slower": "배고픔이 더 천천히 줄어든다",
+  "Jetpack": "제트팩",
+  "To the Moon": "달을 향해서",
+  "Sneakers": "운동화",
+  "+Move speed": "+이동 속도",
+  "Dumbbell": "아령", "Dumbell": "아령",
+  "+Base strength": "+기본 근력",
+  "Robinhood hat": "로빈후드 모자",
+  "Increased draw speed, arrows speed & damage": "향상된 당기기 속도, 화살 속도&대미지",
+  "Orange juice": "오렌지 주스",
+  "Buffs attack speed": "공격 속도를 향상시킨다",
+  "Peanut butter": "땅콩 버터",
+  "+Stamina": "+스태미나",
+  // 레어 (파란색)
+  "Dracula": "드라큘라",
+  "Permanently increase max hp on kill": "살해 시 최대 체력을 영구적으로 증가시킨다",
+  "Crimson Dagger": "핏빛 단검",
+  "Lifesteal- Dealing damage heals you": "흡혈-대미지를 주면 체력이 회복된다",
+  "Horseshoe": "편자",
+  "Increased chance to hit a critical strike": "향상된 치명타 확률",
+  "Juice": "주스",
+  "Get juiced up when landing a crit": "치명타 발동 시 흥분하게 된다",
+  "janniks frog": "개구리",
+  "+1 Jump": "+1 Jump",
+  "Piggy bank": "돼지 저금통", "Piggybank": "돼지 저금통",
+  "I'm feeling lucky, time to hog all the loot": "운이 좋아진 것 같아, 모든 전리품을 독차지할 시간이야",
+  "Danis milk": "Dani의 우유", "Dani's Milk": "다니의 우유",
+  "Strong bones": "튼튼한 뼈",
+  "Bulldozer": "불도저",
+  "Chance to knockback enemies": "일정 확률로 적을 밀어냅니다.",
+  // 레전드 (노란색)
+  "Sniper scope": "저격용 조준경",
+  "Small chance on hit to deal chunky damage": "공격 시 낮은 확률로 엄청난 대미지를 준다.",
+  "Knuts Hammer": "망치", "Knut's Hammer": "크누트의 망치",
+  "And his hammer was electric": "그의 망치는 번개였다",
+  "Enforcer": "집행자",
+  "Deal more damage when moving faster": "더 빨리 달릴수록 더 많은 대미지를 준다",
+  "Wing of glort": "영광의 날개",
+  "Deal bonus damage while falling": "떨어지는 동안 추가적인 대미지를 준다",
+  "Adrenaline": "아드레날린",
+  "Falling below 30% boosts your stats": "체력이 30% 아래로 떨어질 경우 스탯을 증가시킨다",
+  "Berserk": "버서크",
+  "The lower hp, the more damage": "더 적은 HP, 더 많은 대미지.",
+  "Checkered shirt": "체크무늬 셔츠",
+  "Increases damage to resources": "자원에게 주는 대미지가 증가한다",
+
+
+///////////////////////////////////////////////////////
+//  인벤토리  //
+///////////////////////////////////////////////////////
+/*도구/무기/갑옷*/
+  /*도끼*/
+  "its axe": "이건 도끼입니다.",
+  "Wood Axe": "나무 도끼",
+  "Gold Axe": "황금 도끼",
+  "Steel Axe": "강철 도끼",
+  "Mithril Axe": "미스릴 도끼",
+  "Adamantite Axe": "아다만타이트 도끼",
+  "Chunkium Axe": "청키움 도끼",
+  "Obamium Axe": "오바미움 도끼",
+  "Ruby Axe": "루비 도끼", // 임시
+
+  /*곡괭이*/
+  "its pickaxe": "이건 곡괭이입니다.",
+  "Wood Pickaxe": "나무 곡괭이",
+  "Gold Pickaxe": "황금 곡괭이",
+  "Steel Pickaxe": "강철 곡괭이",
+  "Mithril Pickaxe": "미스릴 곡괭이",
+  "Adamantite Pickaxe": "아다만타이트 곡괭이",
+  "Chunkium Pickaxe": "청키움 곡괭이",
+  "Obamium Pickaxe": "오바미움 곡괭이",
+  "Ruby Pickaxe": "루비 곡괭이", // 임시
+
+  /*무기*/
+  // 검
+  "Gold Sword": "황금 검",
+  "Steel Sword": "강철 검",
+  "Mithril Sword": "미스릴 검",
+  "Adamantite Sword": "아다만타이트 검",
+  "Obamium Sword": "오바미움 검",
+  "Ruby Sword": "루비 검", // 임시
+
+  // 특수 무기
+  "Wyvern Dagger": "와이번 단검",
+  "An extremely sharp dagger": "극도로 날카로운 단검.",
+  "Chunky Hammer": "청키 망치",
+  "its blunt and chunky": "뭉툭하고 두툼하다.",
+  "Gronk's Sword": "그론크의 검", "Gronks sword": "그론크의 검",
+  "A very heavy sword": "아주 무거운 검이다.",
+  "Chief's Spear": "족장의 창", "Chiefs Spear": "족장의 창",
+  "It's a spear": "이건 창이다.",
+  "Night Blade": "나이트블레이드",
+  "Dark as the night sky": "밤하늘만큼이나 어둡다.",
+
+  // 활
+  "Wood Bow": "나무 활",
+  "Looks kinda scuffed": "흠집같은게 좀 보이네요",
+  "Birch bow": "자작나무 활",
+  "bitch boi": "작같은 녀석",
+  "Fir bow": "전나무 활",
+  "Bow": "활입니다.",
+  "Oak bow": "참나무 활",
+  "This bow looks sick": "이거 좀 멋져보이네요",
+  "Ancient Bow": "고대 활",
+  "It has ancient in the name so it must be good": "\"고대\"무기잖아요, 당연히 좋겠죠.", 
+
+  // 화살
+  "Flint Arrow": "부싯돌 화살",
+  "kinda wacky, but gets the job done ig": "좀 이상하지만, 목적은 달성했습니다",
+  "Steel Arrow": "강철 화살",
+  "Shiny arrow": "빛나는 화살",
+  "Mithril Arrow": "미스릴 화살",
+  "Sharp arrow": "날카로운 화살",
+  "Adamantite Arrow": "아다만타이트 화살",
+  "Green arrow": "초록 화살",
+  "Fire arrow": "화염 화살",
+  "An arrow charged with fire": "불의 힘이 깃든 화살",
+  "Lightning Arrow": "번개 화살",
+  "An arrow charged with lightning": "번개의 힘이 깃든 화살",
+  "Water Arrow": "물 화살",
+  "An arrow charged with water": "물의 힘이 깃든 화살",
+
+  /*갑옷*/
+  // 투구
+  "it protecc head": "머리를 보호합니다",
+  "Wolfskin Helmet": "늑대가죽 투구",
+  "Gold Helmet": "황금 투구",
+  "Steel Helmet": "강철 투구",
+  "Mithril Helmet": "미스릴 투구",
+  "Chunkium Helmet": "청키움 투구",
+  "Adamantite Helmet": "아다만타이트 투구",
+  "Obamium Helmet": "오바미움 투구",
+  // 흉갑
+  "it protecc chest": "가슴을 보호합니다",
+  "Wolfskin Chestplate": "늑대가죽 흉갑",
+  "Gold Chestplate": "황금 흉갑",
+  "Steel Chestplate": "강철 흉갑",
+  "Mithril Chestplate": "미스릴 흉갑",
+  "Chunkium Chestplate": "청키움 흉갑",
+  "Adamantite Chestplate": "아다만타이트 흉갑",
+  "Obamium Chestplate": "오바미움 흉갑",
+  // 바지
+  "it protecc leg": "다리를 보호합니다",
+  "Wolfskin Pants": "늑대가죽 바지",
+  "Gold Pants": "황금 바지",
+  "Steel Pants": "강철 바지",
+  "Mithril Pants": "미스릴 바지",
+  "Chunkium Pants": "청키움 바지",
+  "Adamantite Pants": "아다만타이트 바지",
+  "Obamium Pants": "오바미움 바지",
+  // 장화
+  "it protecc foot": "발을 보호합니다",
+  "Wolfskin Boots": "늑대가죽 장화",
+  "Gold Boots": "황금 장화",
+  "Steel Boots": "강철 장화",
+  "Mithril Boots": "미스릴 장화",
+  "Chunkium Boots": "청키움 장화",
+  "Adamantite Boots": "아다만타이트 장화",
+  "Obamium Boots": "오바미움 장화",
+  /*
+    Wolfskin Armor
+    Gold Armor
+    Steel Armor
+    Mithril Armor
+    Chunkium Armor
+    Adamantite Armor
+    Obamium Armor
+  */
+
+/*광물*/
+  // 자연
+  "Rock": "돌",
+  "regex:^its rock$": "<size=50%><i>네, 돌입니다. 뭘 바라는거죠?",
+  "Flint": "부싯돌",
+  "its rock but make fire": "돌인데 불이 납니다.",
+  "Coal": "석탄",
+  "its flamable rock": "이건 불이 붙는 돌입니다.",
+  
+  // 원석
+  "Iron Ore": "철광석",
+  "its hard rock": "이건 단단한 돌입니다.",
+  "Gold Ore": "금광석",
+  // "its hard rock": "이건 단단한 돌입니다.",
+  "Mithril Ore": "미스릴 광석",
+  // "its hard rock": "이건 단단한 돌입니다.",
+  "Adamantite Ore": "아다만타이트 광석",
+  // "its hard rock": "이건 단단한 돌입니다.",
+  "Obamium Ore": "오바미움 광석",
+  "its purple rock": "이건 보라색 돌입니다.",
+  "Chunkium Ore": "청키움 광석",
+  "looks like your mom": "당신 어머니를 닮았네요.",
+  "Ruby": "루비",
+  "This looks pretty expensive": "이거 좀 비싸 보이는데",
+  
+  // 주괴
+  "Iron bar": "철 주괴",
+  "block of iron": "",
+  "Gold bar": "금 주괴",
+  "block of gold": "금으로 이루어진 블럭",
+  "Mithril bar": "미스릴 주괴",
+  "block of mithril": "미스릴로 이루어진 블럭",
+  "Adamantite bar": "아다만타이트 주괴",
+  "block of adamantite": "아다만타이트으로 이루어진 블럭",
+  "Obamium bar": "오바미움 주괴",
+  "block of Obamium": "오바미움으로 이루어진 블럭",
+  "Chunkium bar": "청키움 주괴",
+  "Looks very expensive (and chunky)": "엄청 비싸보인다 (그리고 엄청 뚱뚱하다)",
+
+  // 나무
+  "Wood": "원목",
+  "its wood": "이건 나무입니다",
+  "Birch Wood": "자작나무 원목",
+  "its bitch wood": "이 나무는 '작'같군요.",
+  "Fir Wood": "전나무 원목",
+  "its fir wood": "이건 전나무입니다.",
+  "Oak Wood": "참나무 원목",
+  "its oak wood": "이건 참나무입니다.",
+  "Dark oak wood": "짙은 참나무 원목",
+  "its literally oak but darker": "이건 문자 그대로 그냥 어두운 참나무입니다.",
+
+/*구조물*/
+  "Workbench": "작업대",
+  "A crafting table": "작업용 책상",
+  "Fletch Table": "화살 작업대",
+  "fletch": "화살 작업대",
+  "Furnace": "화로",
+  "it go melt": "녹일 수 있다.",
+  "Anvil": "모루",
+  "chonky metal station": "크고 아름다운 금속 작업대",
+  "Cauldron": "아궁이",
+  "Food go brr": "음식 들어간ㄷrrrrrr",
+  "Chest": "상자",
+  "store thing in it": "여기에 물건을 보관하세요",
+
+/*건축물*/
+  "Wood Doorway" : "나무 문",
+  "Wood Floor" : "나무 바닥",
+  "Wood Pole": "나무 기둥",
+  "Wood Pole Big" : "큰 나무 기둥",     // "Wood Pole"
+  "Wood Pole Small" : "작은 나무 기둥", // "Wood Pole"
+  "Wood Roof" : "나무 지붕",
+  "Wood Stairs" : "나무 계단",
+  "Wood Stairs thinn" : "얇은 나무 계단",
+  "Wood Wall" : "나무 벽",
+  "Wood Wall Half" : "나무 반벽",
+  "Wood Wall Tilted" : "기울어진 나무 벽",
+
+/*음식*/
+  // 공통 설명
+  "yummy": "맛있다.",
+  // 자연물
+  "Red Apple": "사과",          "Red and shiny": "빨갛고 윤기가 난다",
+  "Raw Meat": "생고기",             // "yummy": "맛있다.",
+  // 버섯
+  "Gulpon Shroom": "굴폰 버섯",     // "yummy": "맛있다.",
+  "Ligon Shroom": "리건 버섯",      // "yummy": "맛있다.",
+  "Sugon Shroom": "슈건 버섯",      // "yummy": "맛있다.",
+  "Slurbon Shroom": "슬러번 버섯",  // "yummy": "맛있다.",
+  "sus shroom": "수상한 버섯",      // "yummy": "맛있다.",
+  // 가공품
+  "Bread": "빵",                "let’s get this bread": "이 빵을 구해보자.",
+  "Cooked Meat": "구운 고기",       // "yummy": "맛있다.",
+  "Apple Pie": "사과 파이",     "pie with apple": "사과로 만든 파이",
+  "Meat Pie": "고기 파이",          // "yummy": "맛있다.",
+  // 수프
+  "Meat Soup": "고기 수프",         // "yummy": "맛있다.",
+  "Red Soup": "빨간 수프",          // "yummy": "맛있다.",
+  "Looks spicy": "매워 보인다.",    // "yummy": "맛있다.",
+  "Yellow Soup": "노란 수프",   "Looks like it'll make me full": "한입만 먹어도 배부를 것 같다.",
+  "Purple Soup": "보라 수프",   "Looks like a fast soup": "빠른 수프같다.",
+  "Weird Soup": "이상한 수프",  "I'm not sure I should eat this": "이거... 먹어도 되는건가...?",
+
+/*보석*/
+  // "A shiny gem": "빛나는 보석이다", // Deprecated
+  "Blue Gem": "파란 보석",
+  "A shiny blue gem": "빛나는 파란 보석",
+  "Red Gem": "빨간 보석",
+  "A shiny red gem": "빛나는 빨간 보석",
+  "Green Gem": "초록 보석",
+  "A shiny green gem": "빛나는 초록 보석",
+  "Yellow Gem": "노란 보석",
+  "A shiny yellow gem": "빛나는 노란 보석",
+  "Pink Gem": "분홍 보석",
+  "A shiny pink gem": "빛나는 분홍 보석",
+
+
+
+/*기타*/
+  // 자연
+  "Flax": "아마 꽃",
+  "This could make for some strong fiber": "튼튼한 섬유를 만들 수 있을 것 같다",
+  "Wheat": "밀",
+  "i could totally make dough with this": "이걸로 반죽을 만들 수 있을 것 같다",
+  // 제작
+  "Flax Fibers": "아마 섬유",
+  "This looks pretty strong": "굉장히 튼튼해보인다.",
+  "Rope": "밧줄",
+  "how do i make a noose again?": "올가미는 어떻게 만드는거지?",
+  "Wolfskin": "늑대가죽",
+  "Feels warm and cozy": "따듯하고 아늑해보인다",
+  "Bark": "나무껍질",
+  "its wood but bark": "너무 나무라면 짖어요",
+  // 음식 재료
+  "Dough": "반죽",
+  "looks yummy": "맛있어보인다",
+  "Bowl": "그릇",
+  "its bowl": "이건 그릇이에요",
+  // 무기 부품
+  "Spear Tip": "창 날",
+  "Looks like the tip of a spear": "창 날처럼 보인다.",
+  "Blade": "칼날",
+  "I need a sword hilt for this": "이건 칼 손잡이가 필요하다.",
+  "Sword Hilt": "칼 손잡이",
+  "I'm gonna need a blade for this": "이건 칼날이 필요해보인다.",
+  "Hammer Shaft": "망치 손잡이",
+  "Wild guess, but it might be used for making a hammer?": "엉뚱한 추측이지만, 이건 망치를 만드는데 사용할 수 있을 거 같다.",
+  "Black Shard": "검은 파편", 
+  "It's black": "이건 검은색이다.",
+  "Wyvern Claws": "와이번 발톱",
+  "Extremely Sharp Claws": "굉장히 날카로운 발톱이다.",
+  "Ancient Bone": "고대 뼈",
+  "oof owie my bones": "아이고 내 뼈야",
+  // 마법
+  "WaterBall": "워터 볼",         "Water Ball": "워터 볼",
+  "Ball of water": "물로 만든 공",
+  "Fireball": "파이어 볼",        "Fire ball": "파이어 볼",
+  "Ball of fire": "불로 만든 공",
+  "LightningBall": "라이트닝 볼", "Lightning Ball": "라이트닝 볼",
+  "Ball of lightning": "번개로 만든 공",
+  "WindBall": "윈드 볼",          "Wind Ball": "윈드 볼", // 삭제된 아이템
+  "Ball of wind": "바람 구체", //삭제된 아이템
+  // 지도
+  "Something important is marked on this map..":"뭔가 중요한게 적혀있다..", // 아이템 설명
+  "Something has been marked on your map...  (\"M\" to open map)": "지도에 무언가 표시되었습니다... (\"M\"키로 지도 열기)", // 아이템 획득 텍스트
+  "Boat Map": "배 지도",
+  "Gem Map": "보석 지도",
+  // 기타
+  "Coin": "동전",
+  "shiny": "반짝거린다",
+  "Ancient Core": "고대 코어",
+  "A powerful source of energy": "강력한 에너지원",
+
+
+///////////////////////////////////////
+/*구조물*/
+  /*자연물*/
+  // 나무
+  "Tree": "나무",
+  "Birch": "자작나무",        "Birch Tree": "자작나무",
+  "Fir": "전나무",            "Fir Tree": "전나무",
+  "Oak": "참나무",            "Oak Tree": "참나무",
+  "Dark oak": "짙은 참나무",  "Dark Oak Tree": "짙은 참나무",
+  
+  // 광물
+  // "Rock": "돌", // 아이템과 중복 이름
+  // "Coal": "석탄", // 아이템과 중복 이름
+  "Iron": "철",
+  "Gold": "금",
+  "Mithril": "미스릴",
+  "Adamantite": "아다만타이트",
+  "Obamium": "오바미움",
+  // "Ruby": "루비",  // 아이템과 중복 이름
+  "Chunkium": "청키움",
+  
+  // 건물
+  "Jack Hut": "나무꾼의 오두막",
+  "Pitman Hut": "광부의 오두막",
+  "Smiths Hut": "대장장이의 오두막",
+  "Fletchers hut": "화살 장인의 오두막",
+  "Cooks Hut": "요리사의 오두막",
+  "Looters Hut": "약탈자의 오두막",
+  "Wooden Cart": "나무 수레",
+  "Grave": "무덤",
+
+  // 마을
+  "Log": "통나무",
+  "Logpile": "나무 무더기",
+  "Rockpile": "돌무더기",
+
+
+
+///////////////////////////////////////////
+/*NPC/상인/보스*/
+  // NPC UI
+  "Buy": "구매",
+  "Sell": "판매",
+  // "Back": "뒤로",
+  
+  // NPC 이름
+  "Smith Trader": "대장간 상인",
+  "Chef Trader": "요리 상인",
+  "Archer Trader": "활 상인",
+  "Woodcutter Trader": "나무 상인",
+  "Wildcard Trader": "만물 상인",
+
+  //보스
+  "Chief": "족장",
+  "Gronk": "그론크",
+  "Big Chunk": "빅 청크",
+  "Bob": "밥",
+  "Dave": "데이브",
+  "Dragon": "드래곤",
+
+///////////////////////////////////////////
+// 인게임 UI //
+///////////////////////////////////////////
+/*구조물 UI*/
+  // 작업대
+  "Crafting": "제작",
+  "Basic": "기본",
+  "Tools": "도구",
+  "Stations": "구조물",
+  "Build": "건축",
+
+  // 화로
+  // "Furnace": "화로",
+  "Fuel": "연료",
+  "Metal": "광물",
+  
+  // 아궁이
+  // "Cauldron": "아궁이",
+  // "Fuel": "연료",
+
+  // 화살 제작대
+  "Fletching": "화살 제작",
+  "Bows": "활",
+  "Arrows": "화살",
+  "Misc": "기타",
+  "Armor": "방어구",
+
+  // 모루
+  "Smithing": "제련",
+  "Other": "기타",
+  // "Tools": "도구",
+  "Weapons": "무기",
+  // "Armor": "갑옷",
+  "Armor (S)": "갑옷 (S)",
+
+/*인벤토리*/
+  // UI
+  "INVENTORY": "인벤토리",
+  
+  // 스탯
+  "HP": "체력",
+  "Shield": "쉴드",
+  // "Armor": "방어구",
+  "Strength": "힘",
+  "Critical%": "치명타(%)",
+  "Attack Speed": "공격 속도",
+  "Speed": "속도",
+
+/*묘비*/
+"regex:^Revive (.+) \\((\\d+)$": "$1 부활 ($2초남음",
+"regex:^Revive (.+) \\((\\d+)\\)?$": "$1 부활 ($2초남음)",
+
+/*Death UI*/
+  // 메인
+  "Defeat..": "사망했습니다..",
+  "Menu": "메뉴",
+  
+  // 점수
+  "Kills |": "처치 |",
+  "Deaths |": "사망 |",
+  "Revives |": "부활 |",
+  "DamageDone |": "입힌 데미지 |",
+  "DamageTaken |": "받은 데미지 |",
+  "Day |": "일차 |",
+  "Powerups |": "파워업 |",
+  "Chests |": "상자 |",
+  "Gold collected |": "수집한 골드 |",
+
+  /*채팅*/
+  "regex:^(.+) has died\\.$": "$1님이 사망했습니다.",
+  "regex:^(.+) joined the game$": "$1님이 참가했습니다",
+  "regex:^(.+) has left$": "$1님이 나갔습니다",
+  "regex:^(.+) killed (.+)$": "$1이(가) $2을(를) 처치했습니다",
+
+  ////////////////////////////////////////////////
+  ////////////////////////////////////////////////
+  ////////////////////////////////////////////////
+  ////////////////////////////////////////////////
+                // 확인 필요 번역 //
+  ////////////////////////////////////////////////
+  ////////////////////////////////////////////////
+  ////////////////////////////////////////////////
+  ////////////////////////////////////////////////
+
+  // NPC/상인
+  "Woodman": "나무꾼",
+  "Chef": "요리사",
+  "Smith": "대장장이",
+  "Trade": "거래",
+  "Price": "가격",
+  "Cost": "비용",
+
+  // 자연
+  "Flower": "꽃",
+  "Bone": "뼈",
+
+  // 도구/무기
+  "its sharp": "날카롭습니다",
+  "its shovel dig dig": "삽으로 파고 파고",
+  "A wolfs claws": "늑대의 발톱",
+
+  "Spear": "창",
+  "Shovel": "삽",
+
+
+  "Gronk Stonks": "그론크 주식",
+  "Iron Axe": "철 도끼",
+  "Iron Pickaxe": "철 곡괭이",
+  "Iron Sword": "철 검",
+  "Chunkium Sword": "청키움 검",
+
+  // 방어구
+  "Iron Helmet": "철 투구",
+  "Iron Chestplate": "철 흉갑",
+  "Iron Pants": "철 바지",
+  "Iron Boots": "철 장화",
+
+  // 음식/소비
+  "Milk": "우유",
+  "pEANUTbUTTER": "땅콩버터",
+  "Red Mushroom": "빨간 버섯",
+  "Soup": "수프",
+  "Stew": "스튜",
+
+  // 파워업
+  "Lifesteal - Dealing damage heals you": "흡혈 - 피해를 주면 체력을 회복합니다",
+  "Increase damage dealt to resources": "자원 채취 피해 증가",
+
+  // 마법
+  "Lightning": "번개",
+  "Thunder": "천둥",
+  "Start battle": "전투 시작",
+  "Battle Totem": "전투 토템",
+
+  // 건축/제작
+  "Campfire": "모닥불",
+  "Torch": "횃불",
+  "Wall": "벽",
+  "Floor": "바닥",
+  "Roof": "지붕",
+  "Door": "문",
+  "Window": "창문",
+  "Stairs": "계단",
+  "Fence": "울타리",
+  "Repair": "수리",
+  "Repair Station": "수리대",
+  "Fletching Table": "화살 제작대",
+  "Hand Crafts": "수작업",
+
+  // 설정
+  "Brightness": "밝기",
+  "Quality": "품질",
+  "Music": "음악",
+  "Sound": "효과음",
+  "SFX": "효과음",
+
+  "Mouse Sensitivity": "마우스 감도",
+  "Invert Y": "Y축 반전",
+  "Grass": "풀",
+  "Shadow": "그림자",
+  "Shadows": "그림자",
+  "Particles": "파티클",
+
+  // 메인 메뉴
+  "Play": "플레이",
+  "Exit": "나가기",
+  "Continue": "계속",
+  "Cancel": "취소",
+  "Confirm": "확인",
+  "Yes": "예",
+  "No": "아니오",
+  "OK": "확인",
+  "Close": "닫기",
+  "Credits": "크레딧",
+  "Join": "참가",
+  "Host": "호스트",
+  "Create": "생성",
+
+  // 인게임 UI
+  "Craft": "제작",
+  "Chat": "채팅",
+  "Pause": "일시정지",
+  "Game Over": "게임 오버",
+  "GAME OVER": "게임 오버",
+  "You Died": "사망",
+  "YOU DIED": "사망",
+  "You Win": "승리",
+  "YOU WIN": "승리",
+  "Victory": "승리",
+  "Respawn": "부활",
+  "Spectate": "관전",
+  "Leave": "나가기",
+
+  "Restart": "재시작",
+  "Night": "밤",
+  "Wave": "웨이브",
+
+  // 스탯
+  "Health": "체력",
+  "Damage": "공격력",
+  "Dmg": "공격력",
+  "Attack": "공격",
+  "Defense": "방어력",
+  "Def": "방어력",
+  "Stamina": "스태미나",
+  "Hunger": "배고픔",
+  "Crit": "치명타",
+  "Max Health": "최대 체력",
+  "Max Hp": "최대 체력",
+
+  "Movement Speed": "이동 속도",
+  "Lifesteal": "생명력 흡수",
+  "Knockback": "넉백",
+  "Range": "사거리",
+  "Fire": "화염",
+  "Sniper": "저격",
+  "Vampirism": "흡혈",
+
+  // 아이템 - 무기
+  "Sword": "검",
+  "Axe": "도끼",
+  "Pickaxe": "곡괭이",
+  // "Shield": "방패",
+  "Arrow": "화살",
+  "Bullet": "총알",
+
+  // 아이템 - 자원
+  "Stone": "돌",
+  "Coins": "동전",
+  "Ore": "광석",
+  "Ingot": "주괴",
+  "Bar": "주괴",
+  "Wheat Seeds": "밀 씨앗",
+  "Fur": "모피",
+
+  // 아이템 - 재료
+  "Ruby Ore": "루비 광석",
+
+  // 아이템 - 방어구
+  "Helmet": "투구",
+  "Chestplate": "흉갑",
+  "Pants": "바지",
+  "Boots": "장화",
+  "Wood Helmet": "나무 투구",
+  "Wood Chestplate": "나무 흉갑",
+  "Wood Pants": "나무 바지",
+  "Wood Boots": "나무 장화",
+  "Ruby Helmet": "루비 투구",
+  "Ruby Chestplate": "루비 흉갑",
+  "Ruby Pants": "루비 바지",
+  "Ruby Boots": "루비 장화",
+
+  // 아이템 - 음식
+  "Apple": "사과",
+  "Yellow Mushroom": "노란 버섯",
+  "Mushroom Soup": "버섯 수프",
+  "Flax Seeds": "아마 씨앗",
+
+  // 파워업/버프
+  "Powerup": "파워업",
+  "Buff": "버프",
+  "Brute": "야수",
+
+  "Jannik's Frog": "야닉의 개구리",
+
+  "Lightning Rod": "피뢰침",
+  "Wings of Glory": "영광의 날개",
+  "Robin Hood Hat": "로빈 후드 모자",
+
+
+
+  // 상호작용
+  "Press": "누르기",
+  "Use": "사용",
+  "Open": "열기",
+  "Pickup": "줍기",
+  "Pick up": "줍기",
+  "Drop": "버리기",
+  "Equip": "장착",
+  "Unequip": "해제",
+  "Eat": "먹기",
+
+  "Smelt": "제련",
+  "Cook": "요리",
+
+  // 보트/탈출
+  "Boat": "보트",
+  "Ship": "배",
+  "Sail": "항해",
+
+  // 기타 UI
+  "Players": "플레이어",
+  "Player": "플레이어",
+  "Team": "팀",
+  "Score": "점수",
+  "Level": "레벨",
+
+  // 네트워크/로비
+  "Copied seed to clipboard": "시드가 클립보드에 복사되었습니다",
+  "Server": "서버",
+  "Ping": "핑",
+  "Lobby": "로비",
+
+  "Friends Only": "친구만",
+  "Public": "공개",
+  "Private": "비공개",
+  "Name": "이름",
+  "Username": "이름",
+  "Enter name": "이름 입력",
+  "Enter name...": "이름 입력...",
+
+  // 상태 메시지
+  "Not enough resources": "자원이 부족합니다",
+  "Inventory full": "인벤토리가 가득 찼습니다",
+  "Cannot place here": "여기에 배치할 수 없습니다",
+  "Too far away": "너무 멀리 있습니다",
+
+  // 기타
+  "robinhood": "로빈 후드",
+  "Mute_Jack": "번역 만든 놈"
+}
