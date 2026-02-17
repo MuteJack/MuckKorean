@@ -7,6 +7,8 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -22,6 +24,14 @@ jobs:
           cp manifest.json package/
           cp release/MuckKorean.dll package/plugins/MuckKorean/
           cp release/translations.json5 package/plugins/MuckKorean/
+
+      - name: Create zip
+        run: cd package && zip -r ../MuckKorean-${{ steps.version.outputs.version }}.zip .
+
+      - name: Upload to GitHub Release
+        run: gh release upload "${{ github.ref_name }}" "MuckKorean-${{ steps.version.outputs.version }}.zip"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload to Thunderstore
         uses: GreenTF/upload-thunderstore-package@v4.3
