@@ -1,0 +1,37 @@
+name: Publish to Thunderstore
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get version from tag
+        id: version
+        run: echo "version=${GITHUB_REF_NAME#v}" >> $GITHUB_OUTPUT
+
+      - name: Prepare package
+        run: |
+          mkdir -p package/plugins/MuckKorean
+          cp icon.png package/
+          cp README.md package/
+          cp manifest.json package/
+          cp release/MuckKorean.dll package/plugins/MuckKorean/
+          cp release/translations.json5 package/plugins/MuckKorean/
+
+      - name: Upload to Thunderstore
+        uses: GreenTF/upload-thunderstore-package@v4.3
+        with:
+          token: ${{ secrets.THUNDERSTORE_TOKEN }}
+          community: muck
+          namespace: MuteJack
+          name: MuckKorean
+          description: "Muck 한글화 모드 - 모든 UI/아이템/스킬 텍스트를 한국어로 번역합니다"
+          version: ${{ steps.version.outputs.version }}
+          file: package/
+          deps: BepInEx-BepInExPack_Muck@5.4.1101
+          website: https://github.com/MuteJack/MuckKorean
