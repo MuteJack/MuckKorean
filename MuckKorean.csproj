@@ -5,7 +5,7 @@
     <AssemblyName>MuckKorean</AssemblyName>
     <RootNamespace>MuckKorean</RootNamespace>
     <LangVersion>latest</LangVersion>
-    <OutputPath>../BepInEx/plugins/MuckKorean/</OutputPath>
+    <OutputPath>./release/</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
 
@@ -65,5 +65,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+
+  <Target Name="CopyToPlugins" AfterTargets="Build">
+    <Copy SourceFiles="$(OutputPath)MuckKorean.dll"
+          DestinationFolder="../BepInEx/plugins/MuckKorean/" />
+    <Copy SourceFiles="translations.json5"
+          DestinationFolder="../BepInEx/plugins/MuckKorean/" />
+  </Target>
 
 </Project>

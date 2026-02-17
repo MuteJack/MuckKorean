@@ -2,4 +2,5 @@ obj/
 bin/
 *.user
 *.suo
+*.pdb
 .vs/
