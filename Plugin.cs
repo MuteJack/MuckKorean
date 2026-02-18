@@ -65,17 +65,17 @@ namespace MuckKorean
         {
             int translated = 0;
 
-            // 디버그: 씬 내 모든 텍스트 컴포넌트 타입 로그
-            var allTMP = FindObjectsOfType<TMP_Text>();
-            var allTextMesh = FindObjectsOfType<TextMesh>();
-            var allUIText = FindObjectsOfType<UnityEngine.UI.Text>();
-            Logger.LogInfo($"[DEBUG] 씬 컴포넌트: TMP={allTMP.Length}, TextMesh={allTextMesh.Length}, UI.Text={allUIText.Length}");
+            // // 디버그: 씬 내 모든 텍스트 컴포넌트 타입 로그
+            // var allTMP = FindObjectsOfType<TMP_Text>();
+            // var allTextMesh = FindObjectsOfType<TextMesh>();
+            // var allUIText = FindObjectsOfType<UnityEngine.UI.Text>();
+            // Logger.LogInfo($"[DEBUG] 씬 컴포넌트: TMP={allTMP.Length}, TextMesh={allTextMesh.Length}, UI.Text={allUIText.Length}");
 
-            foreach (var tm in allTextMesh)
-            {
-                if (tm != null && !string.IsNullOrEmpty(tm.text))
-                    Logger.LogInfo($"[DEBUG] TextMesh: '{tm.text}' GO={tm.gameObject.name} font={tm.font?.name}");
-            }
+            // foreach (var tm in allTextMesh)
+            // {
+            //     if (tm != null && !string.IsNullOrEmpty(tm.text))
+            //         Logger.LogInfo($"[DEBUG] TextMesh: '{tm.text}' GO={tm.gameObject.name} font={tm.font?.name}");
+            // }
 
             var tmpTexts = FindObjectsOfType<TMP_Text>();
             foreach (var tmp in tmpTexts)

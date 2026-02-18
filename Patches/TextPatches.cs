@@ -179,7 +179,7 @@ namespace MuckKorean.Patches
             string translated = TranslationManager.Translate(value);
             if (translated != value)
             {
-                PatchLog.Log.LogInfo($"[UI.Text] '{value}' → '{translated}' GO={__instance.gameObject.name} font={__instance.font?.name} fontSize={__instance.fontSize}");
+                // PatchLog.Log.LogInfo($"[UI.Text] '{value}' → '{translated}' GO={__instance.gameObject.name} font={__instance.font?.name} fontSize={__instance.fontSize}");
                 FontManager.ApplyFont(__instance, translated);
                 value = translated;
             }
@@ -252,16 +252,16 @@ namespace MuckKorean.Patches
             string translated = TranslationManager.Translate(value);
             if (translated != value)
             {
-                PatchLog.Log.LogInfo($"[TextMesh] '{value}' → '{translated}' GO={__instance.gameObject.name}");
+                // PatchLog.Log.LogInfo($"[TextMesh] '{value}' → '{translated}' GO={__instance.gameObject.name}");
                 FontManager.ApplyFont(__instance, translated);
                 value = translated;
             }
-            else
-            {
-                // TextMesh에서 번역 안 된 텍스트도 로그
-                if (value.Length < 30 && !string.IsNullOrWhiteSpace(value))
-                    PatchLog.Log.LogInfo($"[TextMesh] 미번역: '{value}' GO={__instance.gameObject.name}");
-            }
+            // else
+            // {
+            //     // TextMesh에서 번역 안 된 텍스트도 로그
+            //     if (value.Length < 30 && !string.IsNullOrWhiteSpace(value))
+            //         PatchLog.Log.LogInfo($"[TextMesh] 미번역: '{value}' GO={__instance.gameObject.name}");
+            // }
         }
     }
 }
