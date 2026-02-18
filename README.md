@@ -9,12 +9,12 @@ Muck의 모든 텍스트를 한글 폰트 지원/한국어로 번역하는 BepIn
 -----------
 <table>
   <tr>
-    <td align="center" valign="middle"><img src="README/icon_origin.png" width="225"></td>
-    <td><img src="README/1_Main_Menu.png" width="500"></td>
+    <td align="center" valign="middle"><img src="https://raw.githubusercontent.com/MuteJack/MuckKorean/master/README/icon_origin.png" width="225"></td>
+    <td><img src="https://raw.githubusercontent.com/MuteJack/MuckKorean/master/README/1_Main_Menu.png" width="500"></td>
   </tr>
   <tr>
-    <td><img src="README/2_Host_Loby.png" width="500"></td>
-    <td><img src="README/3_InGame.png" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/MuteJack/MuckKorean/master/README/2_Host_Loby.png" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/MuteJack/MuckKorean/master/README/3_InGame.png" width="500"></td>
   </tr>
 </table>
 
