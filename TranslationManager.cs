@@ -223,6 +223,13 @@ namespace MuckKorean
             if (Regex.IsMatch(key, @"^[\d\s\.\,\:\;\-\+\=\!\?\#\%\&\*\(\)\[\]\{\}\/\\]+$"))
                 return;
 
+            // 이미 한글이 포함된 텍스트는 번역 완료된 것이므로 무시
+            foreach (char c in key)
+            {
+                if (c >= '\uAC00' && c <= '\uD7A3')
+                    return;
+            }
+
             if (_missedKeys.Add(key))
             {
                 try
