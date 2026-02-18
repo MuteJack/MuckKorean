@@ -1,6 +1,6 @@
 {
     "name": "MuckKorean",
-    "version_number": "0.0.4",
+    "version_number": "0.0.5",
     "website_url": "",
     "description": "Muck 한글화 모드 - 모든 UI/아이템/스킬 텍스트를 한국어로 번역합니다",
     "dependencies": [
