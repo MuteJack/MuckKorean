@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.0.6
+- Repository
+  - CHANGELOG.md 추가
+  - Thunderstore 패키지에 CHANGELOG.md 포함하도록 워크플로우 수정
+
 ## v0.0.5
 - Bug Fix
   - translations.json5 대소문자 중복 항목 제거
