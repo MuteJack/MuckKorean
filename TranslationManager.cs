@@ -31,6 +31,9 @@ namespace MuckKorean
             string json = File.ReadAllText(filePath, Encoding.UTF8);
             ParseJson(json);
 
+            // missed_strings.txt 초기화 (세션마다 새로 시작)
+            try { File.WriteAllText(Path.Combine(pluginPath, "missed_strings.txt"), "", Encoding.UTF8); } catch { }
+
             if (_regexTranslations.Count > 0)
                 Log.LogInfo($"정규식 번역 {_regexTranslations.Count}개 로드");
         }
