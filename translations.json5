@@ -736,7 +736,7 @@
 
 /*인벤토리*/
   // UI
-  "INVENTORY": "인벤토리",
+  // "INVENTORY": "인벤토리",
   
   // 스탯
   "HP": "체력",
@@ -882,16 +882,12 @@
   "Chat": "채팅",
   "Pause": "일시정지",
   "Game Over": "게임 오버",
-  "GAME OVER": "게임 오버",
   "You Died": "사망",
-  "YOU DIED": "사망",
   "You Win": "승리",
-  "YOU WIN": "승리",
   "Victory": "승리",
   "Respawn": "부활",
   "Spectate": "관전",
   "Leave": "나가기",
-
   "Restart": "재시작",
   "Night": "밤",
   "Wave": "웨이브",
