@@ -26,6 +26,7 @@ jobs:
           mkdir -p package/plugins/MuckKorean
           cp icon.png package/
           cp README.md package/
+          cp CHANGELOG.md package/
           cp manifest.json package/
           cp release/MuckKorean.dll package/plugins/MuckKorean/
           cp release/translations.json5 package/plugins/MuckKorean/
