@@ -45,6 +45,8 @@ namespace MuckKorean
         private static readonly Regex UnlockedRegex = new Regex(@"^Unlocked (.+)$", RegexOptions.Compiled);
         private static readonly Regex GoldRegex = new Regex(@"^(\d+) Gold$", RegexOptions.Compiled);
         private static readonly Regex ItemXnRegex = new Regex(@"^(.+) \(x(\d+)\)$", RegexOptions.Compiled);
+        // 수리 비용 패턴: "Fir Wood (15)", "Iron Bar (5)"
+        private static readonly Regex RepairCostRegex = new Regex(@"^(.+) \((\d+)\)$", RegexOptions.Compiled);
         // 제작 재료 패턴: "Mithril bar - 5", "Bark - 5", "Fir Wood - 10"
         private static readonly Regex CraftReqRegex = new Regex(@"^(.+) - (\d+)$", RegexOptions.Compiled);
         // 채팅 아이템 획득 패턴: "Player: Picked up (Item)" (아이템명 사전 번역 필요)
@@ -144,7 +146,19 @@ namespace MuckKorean
                     return translated + " (x" + count + ")";
             }
 
-            // 7) 제작 재료: "Mithril bar - 5" → "미스릴 주괴 - 5"
+            // 7) 수리 비용: "Fir Wood (15)" → "전나무 원목 (15)"
+            Match repairMatch = RepairCostRegex.Match(trimmed);
+            if (!repairMatch.Success && stripped != trimmed)
+                repairMatch = RepairCostRegex.Match(stripped);
+            if (repairMatch.Success)
+            {
+                string itemName = repairMatch.Groups[1].Value;
+                string count = repairMatch.Groups[2].Value;
+                if (_translations.TryGetValue(itemName, out translated))
+                    return PreserveLeadingTags(trimmed, translated + " (" + count + ")");
+            }
+
+            // 8) 제작 재료: "Mithril bar - 5" → "미스릴 주괴 - 5"
             Match craftMatch = CraftReqRegex.Match(trimmed);
             if (!craftMatch.Success && stripped != trimmed)
                 craftMatch = CraftReqRegex.Match(stripped);
@@ -156,7 +170,7 @@ namespace MuckKorean
                     return PreserveLeadingTags(trimmed, translated + " - " + count);
             }
 
-            // 8) 채팅 메시지: "Player: Picked up (Item)" → json5의 "Picked up" 번역 사용
+            // 9) 채팅 메시지: "Player: Picked up (Item)" → json5의 "Picked up" 번역 사용
             Match pickupMatch = ChatPickupRegex.Match(stripped != trimmed ? stripped : trimmed);
             if (pickupMatch.Success)
             {
@@ -202,6 +216,49 @@ namespace MuckKorean
                     return PreserveLeadingTags(trimmed, pair.Key.Replace(stripped, pair.Value));
             }
 
+            // "3x Rock" → "3x 돌", "Unlocked Workbench" → "작업대 해금!", "200 Gold" → "200 골드"
+            Match nxMatch = NxItemRegex.Match(trimmed);
+            if (nxMatch.Success)
+            {
+                string itemName = nxMatch.Groups[2].Value;
+                if (_translations.TryGetValue(itemName, out translated))
+                    return nxMatch.Groups[1].Value + "x " + translated;
+            }
+
+            Match unlockMatch = UnlockedRegex.Match(trimmed);
+            if (unlockMatch.Success)
+            {
+                string itemName = unlockMatch.Groups[1].Value;
+                if (_translations.TryGetValue(itemName, out translated))
+                    return translated + " 해금!";
+            }
+
+            Match goldMatch = GoldRegex.Match(trimmed);
+            if (goldMatch.Success)
+                return goldMatch.Groups[1].Value + " 골드";
+
+            // "Mithril Ore (x5)" → "미스릴 광석 (x5)"
+            Match itemXnMatch = ItemXnRegex.Match(trimmed);
+            if (itemXnMatch.Success)
+            {
+                string itemName = itemXnMatch.Groups[1].Value;
+                string count = itemXnMatch.Groups[2].Value;
+                if (_translations.TryGetValue(itemName, out translated))
+                    return translated + " (x" + count + ")";
+            }
+
+            // 수리 비용: "Fir Wood (15)" → "전나무 원목 (15)"
+            Match repairMatch = RepairCostRegex.Match(trimmed);
+            if (!repairMatch.Success && stripped != trimmed)
+                repairMatch = RepairCostRegex.Match(stripped);
+            if (repairMatch.Success)
+            {
+                string itemName = repairMatch.Groups[1].Value;
+                string count = repairMatch.Groups[2].Value;
+                if (_translations.TryGetValue(itemName, out translated))
+                    return translated + " (" + count + ")";
+            }
+
             // 제작 재료: "Mithril bar - 5" → "미스릴 주괴 - 5"
             Match craftMatch = CraftReqRegex.Match(trimmed);
             if (!craftMatch.Success && stripped != trimmed)
@@ -212,6 +269,17 @@ namespace MuckKorean
                 string count = craftMatch.Groups[2].Value;
                 if (_translations.TryGetValue(itemName, out translated))
                     return translated + " - " + count;
+            }
+
+            // 채팅 아이템 획득: "Player: Picked up (Item)" → "Player: 아이템 획득"
+            Match pickupMatch = ChatPickupRegex.Match(stripped != trimmed ? stripped : trimmed);
+            if (pickupMatch.Success)
+            {
+                string playerName = pickupMatch.Groups[1].Value;
+                string itemName = pickupMatch.Groups[2].Value;
+                string translatedItem = _translations.TryGetValue(itemName, out translated) ? translated : itemName;
+                string pickupText = _translations.TryGetValue("Picked up", out string pickupTranslated) ? pickupTranslated : "획득";
+                return PreserveLeadingTags(trimmed, playerName + ": " + translatedItem + " " + pickupText);
             }
 
             return line;
