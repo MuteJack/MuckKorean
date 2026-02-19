@@ -279,7 +279,7 @@
   "regex:\\(Press \"(.+)\" to open": "($1 키를 눌러 열기)",
   "regex:\\(Press \"(.+)\" to use\\)": "($1 키를 눌러 사용)",
   "regex:Press (.+) to trade with (.+)": "$1 키를 눌러 $2와(과) 거래",
-  "regex:Press (.+) to leave Muck!": "$1 키를 눌러 Muck 탈출!",
+  "regex:Press (.+) to leave Muck!": "$1 키를 눌러\nMuck 탈출!",
   "Get all players on the ship!": "모든 플레이어를 배에 태우세요!",
   "Open Door": "문 열기",
   "Close Door": "문 닫기",
@@ -300,7 +300,7 @@
   "Jetpack": "제트팩",
   "To the Moon": "달을 향해서",
   "Sneakers": "운동화",
-  "+Move speed": "+이동 속도",
+  "+Move speed": "+이동 속도",   "+Movement speed": "+이동 속도",
   "Dumbbell": "아령", "Dumbell": "아령",
   "+Base strength": "+기본 근력",
   "Robinhood hat": "로빈후드 모자",  "Robin Hood Hat": "로빈 후드 모자",
@@ -309,6 +309,7 @@
   "Buffs attack speed": "공격 속도를 향상시킨다",
   "Peanut butter": "땅콩 버터",
   "+Stamina": "+스태미나",
+  
   // 레어 (파란색)
   "Dracula": "드라큘라",
   "Permanently increase max hp on kill": "살해 시 최대 체력을 영구적으로 증가시킨다",
@@ -543,6 +544,22 @@
   "Wood Wall Half" : "나무 반벽",
   "Wood Wall Tilted" : "기울어진 나무 벽",
 
+  // 배 수리
+  "Ship's Wheel": "배 조종간",
+  "Core": "코어",
+  "Broken Ladder": "망가진 사다리",
+  "Sail": "돛",
+  "Mast": "돛대",
+  "Hut": "오두막",
+  "Hole": "구멍",
+  "Supply Crate": "보급 상자",
+  "Engine": "엔진",
+  "Engine Base": "엔진 기반",
+  "Rod": "엔진 축",
+  "Cog": "톱니바퀴",
+  "Gold Pipes": "황금 파이프",
+  "Ship Chest": "보트 상자",
+
 /*음식*/
   // 공통 설명
   "yummy": "맛있다.",
@@ -635,7 +652,7 @@
   // 기타
   "Coin": "동전",
   "shiny": "반짝거린다",
-  "Ancient Core": "고대 코어",
+  "Ancient Core": "고대 코어", "AncientCore": "고대 코어",
   "A powerful source of energy": "강력한 에너지원",
 
 
@@ -754,17 +771,18 @@
 /*Death UI*/
   // 메인
   "Defeat..": "사망했습니다..",
+  "Victory!": "승리했습니다!",
   "Menu": "메뉴",
   
   // 점수
-  "Kills |": "처치 |",
-  "Deaths |": "사망 |",
-  "Revives |": "부활 |",
+  "Kills |": "처치 횟수 |",
+  "Deaths |": "사망 횟수|",
+  "Revives |": "부활 횟수|",
   "DamageDone |": "입힌 데미지 |",
   "DamageTaken |": "받은 데미지 |",
-  "Day |": "일차 |",
+  "Day |": "생존일 |",
   "Powerups |": "파워업 |",
-  "Chests |": "상자 |",
+  "Chests |": "상자 수 |",
   "Gold collected |": "수집한 골드 |",
 
   /*채팅*/
@@ -772,9 +790,14 @@
   "regex:^(.+) joined the game$": "$1님이 참가했습니다",
   "regex:^(.+) has left$": "$1님이 나갔습니다",
   "regex:^(.+) killed (.+)$": "$1이(가) $2을(를) 처치했습니다",
+  "Broken Ship has been located (\"M\" to open map)": "난파선이 발견되었습니다 (\"M\"키로 지도 열기)",
+  "Guardian have been located (\"M\" to open map)": "가디언이 발견되었습니다 (\"M\"키로 지도 열기)",
+  // "regex:^(.+) received rare drop: itemname": "$1",
+  // "regex:^(.+) summoned bossname": "$1",
 
   /*시스템*/
   "regex:^-DAY (\\d+)-$": "-$1일차-",
+  
 
 
   ////////////////////////////////////////////////
@@ -786,6 +809,8 @@
   ////////////////////////////////////////////////
   ////////////////////////////////////////////////
   ////////////////////////////////////////////////
+
+  "Shipwreck": "난파선",
 
   // NPC/상인
   "Woodman": "나무꾼",
@@ -987,7 +1012,7 @@
   // 보트/탈출
   "Boat": "보트",
   "Ship": "배",
-  "Sail": "항해",
+
 
   // 기타 UI
   "Players": "플레이어",
