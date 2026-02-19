@@ -303,7 +303,7 @@
   "+Move speed": "+이동 속도",
   "Dumbbell": "아령", "Dumbell": "아령",
   "+Base strength": "+기본 근력",
-  "Robinhood hat": "로빈후드 모자",
+  "Robinhood hat": "로빈후드 모자",  "Robin Hood Hat": "로빈 후드 모자",
   "Increased draw speed, arrows speed & damage": "향상된 당기기 속도, 화살 속도&대미지",
   "Orange juice": "오렌지 주스",
   "Buffs attack speed": "공격 속도를 향상시킨다",
@@ -325,7 +325,7 @@
   "Danis milk": "Dani의 우유", "Dani's Milk": "다니의 우유",
   "Strong bones": "튼튼한 뼈",
   "Bulldozer": "불도저",
-  "Chance to knockback enemies": "일정 확률로 적을 밀어냅니다.",
+  "Chance to knock back enemies": "일정 확률로 적을 밀어냅니다.",
   // 레전드 (노란색)
   "Sniper scope": "저격용 조준경",
   "Small chance on hit to deal chunky damage": "공격 시 낮은 확률로 엄청난 대미지를 준다.",
@@ -773,6 +773,10 @@
   "regex:^(.+) has left$": "$1님이 나갔습니다",
   "regex:^(.+) killed (.+)$": "$1이(가) $2을(를) 처치했습니다",
 
+  /*시스템*/
+  "regex:^-DAY (\\d+)-$": "-$1일차-",
+
+
   ////////////////////////////////////////////////
   ////////////////////////////////////////////////
   ////////////////////////////////////////////////
@@ -962,7 +966,7 @@
 
   "Lightning Rod": "피뢰침",
   "Wings of Glory": "영광의 날개",
-  "Robin Hood Hat": "로빈 후드 모자",
+
 
 
 
