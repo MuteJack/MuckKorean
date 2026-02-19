@@ -176,20 +176,20 @@
   "Walk 250km": "250km 걷기", //도전과제 21
   "Milkman": "우유 배달부", //도전과제 22
   "Pick up 10 Milk powerups in one game": "한 게임에서 우유 파워업 10개 획득", //도전과제 22
-  // "Muck off": "Muck off", //도전과제 23
+  "Muck off": "Muck 까세요", //도전과제 23
   "Die 50 Times": "50번 사망", //도전과제 23
-  // "Muck this game": "Muck this game", //도전과제 24
+  "Muck this game": "이딴 게임 Muck이나 까라지", //도전과제 24
   "Die 100 Times": "100번 사망", //도전과제 24
   // 4페이지
-  // "Muckinator": "Muckinator", //도전과제 25
+  "Muckinator": "Muck미네이터", //도전과제 25
   "Kill 100 mobs": "몬스터 100마리 처치", //도전과제 25
-  // "Muckinator 2": "Muckinator 2", //도전과제 26
+  "Muckinator 2": "Muck미네이터 2", //도전과제 26
   "Kill 1,000 mobs": "몬스터 1,000마리 처치", //도전과제 26
-  // "Muckinator 3": "Muckinator 3", //도전과제 27
+  "Muckinator 3": "Muck미네이터 3", //도전과제 27
   "Kill 10,000 mobs": "몬스터 10,000마리 처치", //도전과제 27
-  // "Muckinator 4": "Muckinator 4", //도전과제 28
+  "Muckinator 4": "Muck미네이터 4", //도전과제 28
   "Kill 100,000 mobs": "몬스터 100,000마리 처치", //도전과제 28
-  // "Muck": "Muck", //도전과제 29
+  "Muck": "Muck", //도전과제 29
   "Beat the game using only a rock, taking no damage and using no powerups. This goes for all players in lobby. (Normal or harder)": "돌만 사용, 무피격, 파워업 없이 클리어 (보통 이상, 로비 전원 해당)", //도전과제 29
   "Oh you don't know what Karlson is?": "Karlson을 모른다고?", //도전과제 30
   "Find and wishlist Karlson in Muck": "Muck에서 Karlson을 찾아 위시리스트에 추가", //도전과제 30
@@ -396,7 +396,7 @@
   "Looks kinda scuffed": "흠집같은게 좀 보이네요",
   "Birch bow": "자작나무 활",
   "bitch boi": "작같은 녀석",
-  "Fir bow": "전나무 활",
+  "Fir bow": "소나무 활",
   "Bow": "활입니다.",
   "Oak bow": "참나무 활",
   "This bow looks sick": "이거 좀 멋져보이네요",
@@ -469,7 +469,7 @@
 /*광물*/
   // 자연
   "Rock": "돌",
-  "regex:^its rock$": "<size=50%><i>네, 돌입니다. 뭘 바라는거죠?",
+  "regex:^its rock$": "<size=50%><i>네, 이건 돌입니다. 뭘 바라는거죠?",
   "Flint": "부싯돌",
   "its rock but make fire": "돌인데 불이 납니다.",
   "Coal": "석탄",
@@ -489,19 +489,19 @@
   "Chunkium Ore": "청키움 광석",
   "looks like your mom": "당신 어머니를 닮았네요.",
   "Ruby": "루비",
-  "This looks pretty expensive": "이거 좀 비싸 보이는데",
+  "This looks pretty expensive": "이거 좀 비싸 보이네요",
   
   // 주괴
   "Iron bar": "철 주괴",
   "block of iron": "",
   "Gold bar": "금 주괴",
-  "block of gold": "금으로 이루어진 블럭",
+  "block of gold": "금으로 이루어진 블럭입니다",
   "Mithril bar": "미스릴 주괴",
-  "block of mithril": "미스릴로 이루어진 블럭",
+  "block of mithril": "미스릴로 이루어진 블럭입니다",
   "Adamantite bar": "아다만타이트 주괴",
-  "block of adamantite": "아다만타이트으로 이루어진 블럭",
+  "block of adamantite": "아다만타이트으로 이루어진 블럭입니다",
   "Obamium bar": "오바미움 주괴",
-  "block of Obamium": "오바미움으로 이루어진 블럭",
+  "block of Obamium": "오바미움으로 이루어진 블럭입니다",
   "Chunkium bar": "청키움 주괴",
   "Looks very expensive (and chunky)": "엄청 비싸보인다 (그리고 엄청 뚱뚱하다)",
 
@@ -509,23 +509,23 @@
   "Wood": "원목",
   "its wood": "이건 나무입니다",
   "Birch Wood": "자작나무 원목",
-  "its bitch wood": "이 나무는 '작'같군요.",
-  "Fir Wood": "전나무 원목",
-  "its fir wood": "이건 전나무입니다.",
+  "its bitch wood": "'자' 보세요, 아주 '작'같은 나무입니다.",
+  "Fir Wood": "소나무 원목",
+  "its fir wood": "이건 소나무입니다.",
   "Oak Wood": "참나무 원목",
   "its oak wood": "이건 참나무입니다.",
   "Dark oak wood": "짙은 참나무 원목",
-  "its literally oak but darker": "이건 문자 그대로 그냥 어두운 참나무입니다.",
+  "its literally oak but darker": "이건 문자 그대로 참나무입니다, 그런데 어두움을 곁들인.",
 
 /*구조물*/
   "Workbench": "작업대",
-  "A crafting table": "작업용 책상",
+  "A crafting table": "작업대입니다",
   "Fletch Table": "화살 작업대",
-  "fletch": "화살 작업대",
+  "fletch": "화살을 만들 수 있습니다",
   "Furnace": "화로",
-  "it go melt": "녹일 수 있다.",
+  "it go melt": "뭐든지 녹일 수 있습니다.",
   "Anvil": "모루",
-  "chonky metal station": "크고 아름다운 금속 작업대",
+  "chonky metal station": "크고 아름다운 금속 작업대입니다",
   "Cauldron": "아궁이",
   "Food go brr": "음식 들어간ㄷrrrrrr",
   "Chest": "상자",
@@ -662,7 +662,7 @@
   // 나무
   "Tree": "나무",
   "Birch": "자작나무",        "Birch Tree": "자작나무",
-  "Fir": "전나무",            "Fir Tree": "전나무",
+  "Fir": "소나무",            "Fir Tree": "소나무",
   "Oak": "참나무",            "Oak Tree": "참나무",
   "Dark oak": "짙은 참나무",  "Dark Oak Tree": "짙은 참나무",
   
@@ -707,6 +707,11 @@
   "Archer Trader": "활 상인",
   "Woodcutter Trader": "나무 상인",
   "Wildcard Trader": "만물 상인",
+
+  // NPC 별명 (오두막 이름 접두사)
+  "Woodman": "나무꾼",
+  "Chef": "요리사",
+  "Smith": "대장장이",
 
   //보스
   "Chief": "족장",
@@ -813,9 +818,6 @@
   "Shipwreck": "난파선",
 
   // NPC/상인
-  "Woodman": "나무꾼",
-  "Chef": "요리사",
-  "Smith": "대장장이",
   "Trade": "거래",
   "Price": "가격",
   "Cost": "비용",
